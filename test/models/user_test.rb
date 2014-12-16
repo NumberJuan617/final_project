@@ -9,4 +9,5 @@ class UserTest < ActiveSupport::TestCase
     @user = User.new(teamName: "Example User",
                      password: "foobar", password_confirmation: "foobar")
   end
+end	
 end
